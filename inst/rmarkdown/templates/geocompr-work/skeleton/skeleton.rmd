@@ -1,0 +1,24 @@
+---
+title: "Untitled"
+author: "Katie Jolly"
+date: "May 11, 2018"
+output: 
+  html_document:
+    theme: "cosmo"
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+```{r load_packages}
+# load packages
+
+library(sf)          # classes and functions for vector data
+library(raster)      # classes and functions for raster data
+library(spData)        # load geographic data
+library(spDataLarge)   # load larger geographic data
+```
+
